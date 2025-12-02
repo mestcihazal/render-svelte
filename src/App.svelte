@@ -3,17 +3,24 @@
 </script>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1>My Test Website</h1>
+  <p>
+    Hi {name}! I'm learning how to deploy Svelte apps using Render, and this is my first test site.
+  </p>
+
+  <br />
+
   <p>
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
     how to build Svelte apps.
   </p>
-  <br />
+
   <p>
     And check out <a href="https://render.com">Render</a>'s Svelte
     <a href="https://render.com/docs/deploy-svelte">quickstart guide</a> to see how
     this site was deployed.
   </p>
+
   <p class="large">🧑‍💻</p>
 </main>
 
