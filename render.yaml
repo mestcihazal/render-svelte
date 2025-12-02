@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: svelte-static
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: public
+    autoDeploy: false
